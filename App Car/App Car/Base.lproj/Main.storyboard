@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_Car" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="TAZ-zi-jwu">
+                                <rect key="frame" x="40" y="-3" width="334" height="296"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqb-TW-a6a">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="k15-5u-w7w"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Select from the list">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="CarSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q9l-ah-NKw"/>
+                                            <action selector="Selection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7s-7w-Bvc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFP-ZC-oyg">
+                                        <rect key="frame" x="0.0" y="64" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Jdz-8F-bmF"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Model">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="Categories:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtp-6R-NGL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XA-Hh-Axt">
+                                        <rect key="frame" x="0.0" y="128" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="UKQ-Sb-gkn"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Color">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="Categories:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z8v-Yi-iW9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3A-c4-WIx">
+                                        <rect key="frame" x="0.0" y="192" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8DI-qd-Y9H"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Tires">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="Categories:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6w-Zs-Wls"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeG-Vz-Q4l">
+                                        <rect key="frame" x="0.0" y="256" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="cSo-73-Iy6"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Uphosterls">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="Categories:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q7c-zd-zFX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="V3A-c4-WIx" secondAttribute="trailing" id="EQO-mU-OhN"/>
+                                    <constraint firstAttribute="trailing" secondItem="6XA-Hh-Axt" secondAttribute="trailing" id="YnH-cJ-f2U"/>
+                                    <constraint firstItem="oeG-Vz-Q4l" firstAttribute="leading" secondItem="TAZ-zi-jwu" secondAttribute="leading" id="ddP-hF-LUd"/>
+                                    <constraint firstAttribute="trailing" secondItem="eFP-ZC-oyg" secondAttribute="trailing" id="gpe-lJ-gsM"/>
+                                    <constraint firstItem="eFP-ZC-oyg" firstAttribute="leading" secondItem="TAZ-zi-jwu" secondAttribute="leading" id="ji9-if-Wm1"/>
+                                    <constraint firstAttribute="trailing" secondItem="oeG-Vz-Q4l" secondAttribute="trailing" id="oPY-5i-AQe"/>
+                                    <constraint firstItem="V3A-c4-WIx" firstAttribute="leading" secondItem="TAZ-zi-jwu" secondAttribute="leading" id="qTR-wL-L9u"/>
+                                    <constraint firstAttribute="trailing" secondItem="wqb-TW-a6a" secondAttribute="trailing" id="rPP-lL-CbG"/>
+                                    <constraint firstItem="wqb-TW-a6a" firstAttribute="leading" secondItem="TAZ-zi-jwu" secondAttribute="leading" id="wYs-lE-VNf"/>
+                                    <constraint firstItem="6XA-Hh-Axt" firstAttribute="leading" secondItem="TAZ-zi-jwu" secondAttribute="leading" id="xoD-k5-OrH"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mercedez Benz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVv-lU-ash">
+                                <rect key="frame" x="49" y="681" width="119" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="benz 6" translatesAutoresizingMaskIntoConstraints="NO" id="Y4Z-fz-2j0">
+                                <rect key="frame" x="40" y="430" width="334" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="G7a-iE-dax">
+                                <rect key="frame" x="273" y="694" width="56" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TAZ-zi-jwu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GZs-um-xyN"/>
+                            <constraint firstItem="TAZ-zi-jwu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Mrs-vW-mkh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TAZ-zi-jwu" secondAttribute="trailing" constant="40" id="ws2-px-ZBQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="SelectionBtn" destination="wqb-TW-a6a" id="rFr-0y-0uH"/>
+                        <outletCollection property="CategoryItems" destination="eFP-ZC-oyg" collectionClass="NSMutableArray" id="pmw-QQ-nzN"/>
+                        <outletCollection property="CategoryItems" destination="6XA-Hh-Axt" collectionClass="NSMutableArray" id="R6A-63-WsZ"/>
+                        <outletCollection property="CategoryItems" destination="V3A-c4-WIx" collectionClass="NSMutableArray" id="zpt-Uq-Cww"/>
+                        <outletCollection property="CategoryItems" destination="oeG-Vz-Q4l" collectionClass="NSMutableArray" id="0sK-qb-CiT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="benz 6" width="800" height="533"/>
+        <image name="logo" width="300" height="168"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
